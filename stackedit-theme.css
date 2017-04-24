@@ -1,10 +1,13 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono|Roboto+Slab" rel="stylesheet">
+
 body {
   font-size: 14px;
+  font-family: "Roboto", sans-serif;
 }
 
 #wmd-input {
   font-size: 13px;
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: 'Roboto Mono', monospace;
 }
 
 #wmd-input > .editor-content {
@@ -12,15 +15,15 @@ body {
 }
 
 .preview-panel {
-  background: #fff;
-  box-shadow: inset 1px 0 rgba(128,128,128,0.15);
+  background: #AFA292;
+  box-shadow: inset 1px 0 rgba(128,128,128,0.18);
 }
 
 #preview-contents {
   padding-top: 15px;
   font-size: 14px;
   line-height: 1.6;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 #preview-contents > :first-child {
@@ -35,12 +38,13 @@ body {
 #preview-contents h6 {
   margin: 1em 0 16px;
   font-weight: bold;
+  font-family: "Roboto Slab", serif;
 }
 
 #preview-contents h1,
 #preview-contents h2 {
   padding-bottom: 0.3em;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid rgba(128,128,128,0.18);
 }
 
 #preview-contents h1 {
@@ -84,7 +88,7 @@ body {
 }
 
 #preview-contents code {
-  font-family:  Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 #preview-contents hr {
@@ -93,5 +97,5 @@ body {
   padding: 0;
   overflow: hidden;
   border: none;
-  background: #e7e7e7;
+  background: rgba(128,128,128,0.25);
 }
