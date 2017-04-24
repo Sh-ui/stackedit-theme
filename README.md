@@ -7,7 +7,7 @@
 Paste this code and activate "UserCustom extension".
 ```js
 userCustom.onReady = function () {
-  $('head').append('<link rel="stylesheet" href="//htanjo.github.io/stackedit-theme/stackedit-theme.css">');
+  $('head').append('<link rel="stylesheet" href="//github.com/Sh-ui/stackedit-theme/stackedit-theme.css">');
 };
 ```
 
